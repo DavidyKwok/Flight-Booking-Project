@@ -27,10 +27,12 @@ The Flight Booking Project is a system designed to manage flight bookings using 
   - Guests can book flights at standard rates.
 
 ![Member Interface]
+
 ![image](https://github.com/user-attachments/assets/8bd87b50-361a-4567-ab9e-9e42735641f1)
 
 
 ![Guest Interface]
+
 ![image](https://github.com/user-attachments/assets/1505d301-f937-4b3e-b52c-6104cd3a7e0e)
 
 
