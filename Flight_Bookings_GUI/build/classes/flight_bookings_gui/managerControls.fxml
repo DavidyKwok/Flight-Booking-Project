@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="572.0" prefWidth="560.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flight_bookings_gui.ManagerControlsController">
+   <children>
+      <Text layoutX="100.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Flight Number" />
+      <TextField fx:id="flightNumber" layoutX="219.0" layoutY="79.0" onAction="#createFlightAction" />
+      <ComboBox fx:id="flightBox" layoutX="144.0" layoutY="384.0" onAction="#createFlightAction" prefHeight="25.0" prefWidth="270.0" />
+      <Text layoutX="100.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Origin" />
+      <Text layoutX="101.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Destination" />
+      <Text layoutX="101.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Departure Time" wrappingWidth="126.080078125" />
+      <Text layoutX="102.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Capacity" />
+      <Text layoutX="104.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Price" />
+      <Button fx:id="displayFlight" layoutX="14.0" layoutY="522.0" mnemonicParsing="false" onAction="#displayFlightsAction" text="Display Flights" />
+      <Text layoutX="220.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Flights">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="origin" layoutX="219.0" layoutY="112.0" onAction="#createFlightAction" />
+      <TextField fx:id="destination" layoutX="219.0" layoutY="142.0" onAction="#createFlightAction" />
+      <TextField fx:id="departure" layoutX="219.0" layoutY="175.0" onAction="#createFlightAction" />
+      <TextField fx:id="capacity" layoutX="219.0" layoutY="209.0" onAction="#createFlightAction" />
+      <TextField fx:id="price" layoutX="219.0" layoutY="239.0" onAction="#createFlightAction" />
+      <Button fx:id="logout" layoutX="482.0" layoutY="522.0" mnemonicParsing="false" onAction="#logoutAction" text="Logout" />
+      <Button fx:id="delete" layoutX="431.0" layoutY="384.0" mnemonicParsing="false" onAction="#deleteFlightAction" text="Delete" />
+      <Button fx:id="createFlight" layoutX="220.0" layoutY="277.0" mnemonicParsing="false" onAction="#createFlightAction" text="Create Flight" />
+      <Text layoutX="207.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Flights">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

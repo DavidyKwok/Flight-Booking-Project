@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="managerLogin" onDragDetected="#BackManButtonAction" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="flight_bookings_gui.MemberLoginController">
+   <children>
+      <Text layoutX="226.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Member Login">
+         <font>
+            <Font size="24.0" />
+         </font></Text>
+      <Button fx:id="BackMan" layoutX="545.0" layoutY="361.0" mnemonicParsing="false" onAction="#BackManButtonAction" text="Back" />
+      <PasswordField fx:id="password" layoutX="226.0" layoutY="235.0" onAction="#signInAction" />
+      <Text layoutX="150.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
+      <Text layoutX="150.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <TextField fx:id="username" layoutX="226.0" layoutY="160.0" onAction="#signInAction" />
+      <Button fx:id="SignIn" layoutX="411.0" layoutY="235.0" mnemonicParsing="false" onAction="#signInAction" text="Sign In" />
+   </children>
+</AnchorPane>
