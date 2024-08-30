@@ -39,10 +39,10 @@ The Flight Booking Project is a system designed to manage flight bookings using 
 
 
 - **Discount System**:
-  - Members that have a membership for 1 or less years don’t get a discount
-  - Members that have a membership for more than 1 year but less than 5 get a 10% discount
-  - Members that have a membership for more than 10 years get a 50% discount
-  - Regular customers that are over that age of 65 get a 10% discount
+  - Members that have a membership for 1 or less years don’t get a discount.
+  - Members that have a membership for more than 1 year but less than 5 get a 10% discount.
+  - Members that have a membership for more than 10 years get a 50% discount.
+  - Regular customers that are over the age of 65 get a 10% discount.
 
 
 ## Technologies Used
