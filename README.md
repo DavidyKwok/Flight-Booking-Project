@@ -9,7 +9,7 @@ The Flight Booking Project is a system designed to manage flight bookings using 
 - **Members**: Can book flights with a discount (Username: customer, Password: member).
 - **Guests**: Can book flights with limited discounts.
 
-[Manager Login Interface]
+###Manager Login Interface
 
 ![image](https://github.com/user-attachments/assets/7ee06cee-91bb-4a13-9ce0-685861424fc6)
 ## Features
@@ -18,7 +18,7 @@ The Flight Booking Project is a system designed to manage flight bookings using 
   - Create new flights.
   - Delete existing flights.
 
-[Flight Management Interface]
+###Flight Management Interface
 
 ![image](https://github.com/user-attachments/assets/1e3ced6d-c362-43d7-a927-374193eea6c9)
 
@@ -26,12 +26,12 @@ The Flight Booking Project is a system designed to manage flight bookings using 
   - Members receive discounts on bookings.
   - Guests can book flights at standard rates.
 
-[Member Interface]
+###Member Interface
 
 ![image](https://github.com/user-attachments/assets/8bd87b50-361a-4567-ab9e-9e42735641f1)
 
 
-[Guest Interface]
+###Guest Interface
 
 ![image](https://github.com/user-attachments/assets/1505d301-f937-4b3e-b52c-6104cd3a7e0e)
 
